@@ -1,0 +1,240 @@
+* {
+    background-color: silver;
+}
+body {
+    /* background-color: crimson; */
+    margin: 16px;
+
+    /* margin: auto; */
+}
+header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(25, 134, 197);
+    box-sizing: border-box;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    border-right: 10px double;
+    
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h4 {
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bike img {
+   width: 100%;
+   border-radius: 9px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.forest img {
+    float: left;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 230px;
+    /* height: auto; */
+    border-radius: 5px;
+
+}
+.about-me img {
+    width: 500px;
+    height: 200px;
+    border-radius: 8px;
+    float: right;
+}
+.contact img {
+    float: left;
+    width: 450px;
+    height: 330px;
+    border-radius: 9px;
+    
+}
+.profile-pic img {
+    width: 225px;
+    height: 315px;
+    float: right;
+    border-radius: 8px;
+    position: static;
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    box-sizing: border-box;
+
+}
+
+.main-head {
+    color: rgb(223, 158, 37);
+}
+
+.main-nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.content {
+    background-color: darkgreen;
+    display: inline;
+
+
+}
+.contact-info li {
+    list-style-type: none;
+    font-size: 19px;
+    line-height: 1.7;
+    color: rgb(184, 119, 23);
+    text-align: center;
+
+}
+.contact-header  {
+    text-align: center;
+    font-size: 25px;
+}
+
+li a:hover {
+    background-color: #111;
+    color: darkgoldenrod;
+}
+
+@media screen and (max-width: 990px) {
+    .main-nav ul {
+        list-style-type: none;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .bike img { 
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    .forest img {
+        float: left;
+        width: 400px;
+        height: 230px;
+        /* height: auto; */
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact img {
+        float: left;
+        width: 450px;
+        height: 330px;
+        border-radius: 9px;
+    }
+    .profile-pic img {
+        width: 225px;
+        height: 315px;
+        float: right;
+        border-radius: 8px;
+        position: static;
+        padding-left: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-info li {
+        list-style-type: none;
+        font-size: 25px;
+        line-height: 1.7;
+        color: rgb(184, 119, 23);
+        text-align: center;
+    
+    }
+  }
+  
+  @media screen and (max-width: 580px) {
+    .main-nav ul {
+        list-style-type: none;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .bike img { 
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        
+    }  
+    .forest img {
+        float: left;
+        width: 400px;
+        height: 230px;
+        /* height: auto; */
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact img {
+        float: left;
+        width: 450px;
+        height: 330px;
+        border-radius: 9px;
+    }
+    .profile-pic img {
+        width: 225px;
+        height: 315px;
+        float: right;
+        border-radius: 8px;
+        position: static;
+        padding-left: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+  @media screen and (max-width: 430px) {
+    .main-nav ul {
+        list-style-type: none;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .bike img { 
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    .forest img {
+        float: left;
+        width: 400px;
+        height: 230px;
+        /* height: auto; */
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact img {
+        float: left;
+        width: 450px;
+        height: 330px;
+        border-radius: 9px;
+    }
+    .profile-pic img {
+        width: 225px;
+        height: 315px;
+        float: right;
+        border-radius: 8px;
+        position: static;
+        padding-left: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
